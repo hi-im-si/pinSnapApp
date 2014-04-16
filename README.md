@@ -1,0 +1,4 @@
+pinSnapApp
+==========
+
+Test app
