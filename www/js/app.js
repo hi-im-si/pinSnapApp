@@ -43,12 +43,12 @@ angular.module('pinsnap', ['ionic', 'pinsnap.controllers', 'pinsnap.services'])
       }
     })
 
-    .state('tab.share', {
-      url: '/share',
+    .state('tab.camera', {
+      url: '/camera',
       views: {
-        'tab-share': {
-          templateUrl: 'templates/tab-share.html',
-          controller: 'ShareCtrl'
+        'tab-camera': {
+          templateUrl: 'templates/tab-camera.html',
+          controller: 'CameraCtrl'
         }
       }
     })
